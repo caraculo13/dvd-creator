@@ -1,0 +1,12 @@
+# Configuration for git attributes
+# Language detection rules
+node_modules/* linguist-vendored
+go.sum linguist-generated
+*.htm linguist-vendored
+docs/*.html linguist-vendored
+
+*.jpeg binary
+vendor/* linguist-vendored
+src/*.ts linguist-detectable
+
+src/**/*.tsx linguist-detectable
